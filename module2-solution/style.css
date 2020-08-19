@@ -1,20 +1,19 @@
 *{
+	margin:0px;
 	box-sizing: border-box;
-	margin: 0px;
-	padding: 0px;
 }
+
 body{
-	font-size: 24;
+	font-size: 24px;
 	font-family: "Abel"
 }
 section{
 	position: relative;
 	border: 1px solid black;
 	background-color: #f4f6ff;
-	margin: 5px;
-	width: 31%;
-	float: left;
+	margin: 10px;
 }
+
 h2{
 	position: absolute;
 	right: 0;
@@ -25,9 +24,10 @@ h2{
 }
 
 p{
-	padding: 40px 10px 10px 10px;
+	padding: 50px 10px 10px 10px;
 	text-align: justify;
 }
+
 h1{
 	font-size: 175%;
 	text-align: center;
@@ -43,4 +43,34 @@ h1{
 #bck3{
 	background-color: #c4fb6d;
 
+}
+
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+	.col-lt-12 {
+    float: left;
+  }
+  .col-lt-12 {
+    width: 100%;
+  }
 }
