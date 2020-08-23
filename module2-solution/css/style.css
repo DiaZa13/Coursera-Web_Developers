@@ -7,11 +7,12 @@ body{
 	font-size: 24px;
 	font-family: "Abel"
 }
+
 section{
 	position: relative;
 	border: 1px solid black;
 	background-color: #f4f6ff;
-	margin: 10px;
+	margin: 10px 20px 10px 25px;
 }
 
 h2{
@@ -24,7 +25,7 @@ h2{
 }
 
 p{
-	padding: 50px 10px 10px 10px;
+	padding: 50px 20px 10px 20px;
 	text-align: justify;
 }
 
@@ -45,7 +46,9 @@ h1{
 
 }
 
+
 @media (min-width: 992px) {
+
   .col-lg-4{
     float: left;
   }
@@ -74,3 +77,16 @@ h1{
     width: 100%;
   }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .marginM{
+    margin-left: 0px;
+	}
+}
+@media (min-width: 992px) {
+	.marginL{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
+
