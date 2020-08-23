@@ -89,4 +89,10 @@ h1{
 		margin-right: 0px;
 	}
 }
+@media (max-width: 767px) {
+	.marginP{
+    margin-left: 55px;
+	margin-right: 55px;
+  }
+}
 
